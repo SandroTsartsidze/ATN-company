@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&display=swap');
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+img {
+    position: absolute;
+    width: 29%;
+    z-index: 1;
+    top: 25%;
+    right: 9%;
+}
+.hometext {
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 12%;
+    font-size: 2.2vw;
+    text-align: left;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    letter-spacing: 2px;
+}
+h2 {
+    position: relative;
+    transform: translate(0%, -50%);
+    font-size: 2.1vw;
+    color: #00d4b6;
+}
+.text {
+    position: absolute;
+    top: 44%;
+    left: 12%;
+    font-size: 1.2vw;
+    width: 30%;
+    color: rgb(107, 107, 107);
+    text-align: left;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+button {
+    position: absolute;
+    width: 9%;
+    height: 6vh;
+    background-color: #00d4b6;
+    color: white;
+    border: none;
+    top: 64%;
+    left: 12%;
+    border-radius: 10px;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+.about-us {
+    position: absolute;
+    color: #00d4b6;
+    top: 65%;
+    left: 24.5%;
+    font-size: 1.3vw;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.bottom-text {
+    position: absolute;
+    top: 73%;
+    left: 12%;
+    text-align: left;
+    font-size: 1.7vw;
+    color: rgb(87, 86, 86);
+}
+.bottom-text p {
+    font-size: 1vw;
+    color: rgb(161, 160, 160);
+    font-family: 'Noto Sans Georgian', sans-serif;
+    transform: translate(0%, -40%);
+    letter-spacing: 1.2px;
+}
+.bottom-text-2 {
+    position: absolute;
+    top: 73%;
+    left: 24.5%;
+    text-align: left;
+    font-size: 1.7vw;
+    color: rgb(87, 86, 86);
+}
+.bottom-text-2 p {
+    font-size: 1vw;
+    color: rgb(161, 160, 160);
+    font-family: 'Noto Sans Georgian', sans-serif;
+    transform: translate(0%, -40%);
+    letter-spacing: 1.2px;
+}
